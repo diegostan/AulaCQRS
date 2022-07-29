@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  
+  <ItemGroup>
+    <ProjectReference Include="..\FrotaApp.Application\FrotaApp.Application.Input\FrotaApp.Application.Input.csproj" />
+    <ProjectReference Include="..\FrotaApp.Application\FrotaApp.Application.Output\FrotaApp.Application.Output.csproj" />
+    <ProjectReference Include="..\FrotaApp.Infrastructure\FrotaApp.Infrastructure.Input\FrotaApp.Infrastructure.Input.csproj" />
+    <ProjectReference Include="..\FrotaApp.Infrastructure\FrotaApp.Infrastructure.Output\FrotaApp.Infrastructure.Output.csproj" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
